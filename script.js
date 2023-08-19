@@ -92,6 +92,8 @@ function selecionarResposta(resposta){
         indicePerguntaAtual = 0
         erros = 0;
         acertos = 0;
+        imgIndice = 0;
+        carregar()
         mostrarPergunta(PERGUNTAS[indicePerguntaAtual])
         alert('Limite de erros atingidos')
     }
